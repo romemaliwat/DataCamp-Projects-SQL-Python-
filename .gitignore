@@ -1,0 +1,27 @@
+# Ignore all zip files
+*.zip
+
+# Ignore all dataset files (common types)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Ignore images (e.g. output charts or screenshots)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and cache folders
+__pycache__/
+*.tmp
+*.log
